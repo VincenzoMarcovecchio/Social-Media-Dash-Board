@@ -93,6 +93,7 @@ body {
   grid-auto-rows: 190px;
   @media screen and(max-width:650px) {
     margin: 13.5rem auto 0;
+    width: 90%;
   }
 }
 
@@ -103,8 +104,11 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   column-gap: 1.8rem;
   row-gap: 1.25rem;
-  grid-auto-rows: 112px;
-
+  grid-auto-rows: 115px;
+  @media screen and(max-width:650px) {
+    grid-auto-rows: 135px;
+    width: 90%;
+  }
   & strong {
     font-size: 1.5rem;
   }
