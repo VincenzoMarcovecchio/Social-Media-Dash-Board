@@ -57,7 +57,7 @@
   flex-direction: column;
   justify-content: space-between;
   border-radius: 8px;
-  padding: 1rem;
+  padding: 0.7rem;
   cursor: pointer;
 
   &:hover {
@@ -87,7 +87,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0.5rem;
-    align-items: flex-start;
+    align-items: center;
   }
 }
 

@@ -96,7 +96,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   border-radius: 8px;
-  padding: 1rem;
+  padding: 0.7rem;
   cursor: pointer;
 }
 
@@ -141,9 +141,9 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0.5rem;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .border-top-facebook {
@@ -405,7 +405,7 @@ body {
   -webkit-column-gap: 1.8rem;
           column-gap: 1.8rem;
   row-gap: 1.25rem;
-  grid-auto-rows: 105px;
+  grid-auto-rows: 112px;
 }
 
 .lower-container strong {
